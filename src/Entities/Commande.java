@@ -3,12 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package  com.mycompany.myapp.entities;
+package  Entities;
 
 
 import java.sql.Date;
-import java.util.Objects;
-import javafx.beans.property.StringProperty;
 
 /**
  *
@@ -66,12 +64,12 @@ public class Commande {
         this.panier_id = panier_id;
         this.user_id = user_id;
     }
-    
-   
 
     public Commande() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+  
 
     public String getTypeLivraison() {
         return typeLivraison;
